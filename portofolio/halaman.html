@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PORTOFOLIO</title>
 </head>
 <style>
     body {
-        background-color: #f6f5f5;
+        background-color: #F5F7F8;
         margin: 0px;
         padding: 0px;
         position: relative;
@@ -24,7 +24,8 @@
     section {
         width: 100%;
         height: 100vh;
-        background-color: #FFDFDF;
+        background-image: url("gambar/23.jpg");
+        background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         
@@ -71,6 +72,7 @@
         font-weight: bold;
         color: #6d6d6d;
         font-size: 22px;
+        text-shadow: 12px rgba(0, 0, 0, 0.2) ;
     }
     
     .text-container p:nth-child(2) {
@@ -79,6 +81,7 @@
         color: #1a1a1a;
         font-size: 60px;
         letter-spacing: 1px;
+        text-shadow:2px 2px 12px rgba(0, 0, 0, 0.2) ;
     }
     
     .text-container p:nth-child(3) {
@@ -89,17 +92,39 @@
         font-size: 30px;
         letter-spacing: 5px;
         line-height: 30px;
+        text-shadow:2px 2px 12px rgba(0, 0, 0, 0.2) ;
     }
     
     .text-container p {
         line-height: 0px;
         margin: 45px 0px 25px;
     }
+
+    .id-card {
+            width: 500px;
+            margin: 20px;
+            border: 2px solid #333;
+            padding: 20px;
+            box-shadow: 3px 3px 5px #888888;
+    }
+
+    .id-card table {
+            width: 190%;
+    }
+
+    .id-card td {
+            padding: 5px;
+    }
+
+    .id-card td:first-child {
+            text-align: left;
+            font-weight: bold;
+    }
     
     .text-container {
         position: absolute;
         left: 10%;
-        top: 10%;
+        top: 8%;
     }
     .about-container {
         width: 80%;
@@ -136,7 +161,7 @@
     .about-container3 {
         width: 80%;
         height: 1030px;
-        background-color: #00A9FF;
+        background-color: #F2ECBE;
         border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
@@ -367,7 +392,7 @@
             </ul>
         </nav>
     </section>
-     <div class="text-container">
+     <div id="beranda" class="text-container active">
             <p>Hello,</p>
             <p>I'M DIMAS TRI WAHYUDI</p>
             <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
@@ -376,13 +401,29 @@
             <img src="gambar/profil.jpg" alt="" class="model2">
             <div class="about-text">
                 <p>Personal Data</p>
-                <P>Identitas</P>
                 <p> 
-                    Nama          : Dimas Tri Wahyudi <br>
-                    Jenis Kelamin : Laki-Laki  <br>
-                    Tempat Tinggal: Tegal <br>
-                    Kode Pos      : 52121 <br>
-                    telephone     : (+62) 858-808-755 <br>
+                    <table class="id-card">
+                        <tr>
+                            <td>Nama</td>
+                            <td>: Dimas Tri Wahyudi</td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>: Laki-Laki</td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Tinggal</td>
+                            <td>: Tegal</td>
+                        </tr>
+                        <tr>
+                            <td>Kode Pos</td>
+                            <td>: 52121</td>
+                        </tr>
+                        <tr>
+                            <td>Telephone</td>
+                            <td>: (+62) 858-808-755</td>
+                        </tr>
+                    </table>
                 </p>
             </div>
         </div>
@@ -398,10 +439,10 @@
             </div>
         </div>
 
-        <div  id="about" class="about-container3">
+        <div class="about-container3">
             <div class="about-text">
                 <p>materi kegiatan Seminar Invofest</p>
-                <P>hasil resume/rangkuman</P>
+                <P>hasil resume/rangkuman dari</P>
                  <p>Unlocking The Future: Embracing The Digital Revolution For A Better Tomorrow <br>
                    Red Hat merupakan perusahaan open source yang bergerak di bidang software khususnya sistem operasi Linux yang mengacu pada bidang pendidikan dan saat ini dikenal dengan nama RHEL (Red Hat Enterprise Linux).. Red Had memiliki program yaitu Program CSR (dhsv jsi) yang merupakan kegiatan yang difokuskan pada civitas akademika untuk menjalin keterkaitan antara industri, akademisi dan organisasi lain. Red Hat menawarkan perangkat lunak yang sekarang disebut Red Hat Academy. 
                    Red Hat Academy adalah  platform pembelajaran gratis di  Redhat  atau sejenisnya dengan software pembelajaran online seperti yang kalian ketahui. Red Hat Academy berisikan modul-modul yang dapat dipelajari, pada platform ini  tidak hanya modul-modul yang dipelajari pada platform saja, anda dapat langsung praktek atau lab yang telah disetujui oleh perangkat Red Hat Academy tanpa harus menginstal software lain dan  juga telah video. kelas. Red Had Academy menawarkan pelatihan atau sertifikasi secara global, sementara saat ini, persaingan di masa depan melibatkan sertifikasi. Dalam dunia kerja, personel akan mudah dikenali oleh mereka yang memiliki sertifikasi tertentu.
